@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "ginja",
+  "version": "0.0.1",
+  "description": "inject components and widgets for easy styling",
+  "browser_action": {
+    "default_title": "abc",
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}

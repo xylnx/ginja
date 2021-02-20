@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+</head>
+<body>
+
+  
+  <div class="container"></div>
+  <div class="container_2"></div>
+  
+ <section>
+   <!--
+   <div>widgets</div>
+   <button>insert</button>
+   <button>insert on page reload</button>
+
+   <div>widgets</div>
+   <button>insert</button>
+   <button>insert on page reload</button>
+   -->
+ </section>
+
+ <script type="module" src="index.js"></script>
+
+</body>
+
+
+<style>
+  :root {
+    --bg: #2A2B2E;
+    --1st: #5A5A66;
+    --2nd: #87FF65;
+  }
+  html {
+    background: var(--1st);
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 8px;
+    min-width: 400px;
+    max-width: 800px;
+
+    background: var(--1st);
+    margin: 8px;
+  }
+
+  section div {
+    color: var(--2nd);
+    background: var(--1st);
+    align-self: center;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  button {
+    font-size: 14px;
+    background: var(--2nd);
+    border: none;
+    padding: 4px;
+  }
+
+
+</style>
+</html>
